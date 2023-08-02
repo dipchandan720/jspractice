@@ -11,9 +11,9 @@ console.log(`Name is ${name} and roll no : ${rollno}`);
  console.log(pie);
 //  alert("hello");
 
-var name=prompt("enter your name");
+// var name=prompt("enter your name");
 console.log(name);
-let pw=prompt("enter password");
+// let pw=prompt("enter password");
 
 
 
@@ -22,4 +22,9 @@ if (name=="dip" && pw==123){
 }
 else{
     console.log("enter correct name")
+}
+
+let hour=10;
+if(hour>10 || hour<13){
+    console.log("get ready");
 }
