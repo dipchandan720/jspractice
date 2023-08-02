@@ -17,14 +17,17 @@ console.log(name);
 
 
 
-if (name=="dip" && pw==123){
-    console.log("welcome here");
-}
-else{
-    console.log("enter correct name")
-}
+// if (name=="dip" && pw==123){
+//     console.log("welcome here");
+// }
+// else{
+//     console.log("enter correct name")
+// }
 
-let hour=10;
-if(hour>10 || hour<13){
-    console.log("get ready");
-}
+// let hour=10;
+// if(hour>10 || hour<13){
+//     console.log("get ready");
+// }
+
+let a=10;
+(a>15)?console.log("its true"):console.log("its false");
